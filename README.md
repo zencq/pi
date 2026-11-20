@@ -1,8 +1,8 @@
 # Every Item Procedural
 
-![Maintained](https://img.shields.io/maintenance/yes/2026)
-![GitHub Release](https://img.shields.io/github/v/release/zencq/Pi?display_name=release)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/zencq/Pi)
+![Maintained](https://img.shields.io/maintenance/no/2026)
+![GitHub Release](https://img.shields.io/github/v/release/zencq/pi?display_name=release)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/zencq/pi)
 [![Supported by the No Man's Sky Community Developers & Designers](https://raw.githubusercontent.com/NMSCD/About/master/badge/purple.svg)](https://nmscd.com/)
 
 This repository contains a collection of files with values of stats for every
@@ -31,9 +31,9 @@ automatically generated and not curated by hand.
 
 The following items are currently *outdated* or *not available* due to changes in
 a newer yet unsupported game version. All supported versions can be can be seen
-below and the latest item update in the [releases here on GitHub](https://github.com/zencq/Pi/releases).
+below and the latest item update in the [releases here on GitHub](https://github.com/zencq/pi/releases).
 
-* All Corvette parts from **Voyagers 6.00** and **Breach 6.10** are not available.
+* All Corvette parts from **Voyagers 6.00** and up are not available.
 
 ## How it works 2.3
 
@@ -47,7 +47,6 @@ cover all changes/additions since the first one listed.
 * 5.20
 * 5.61
 * 6.02
-<!-- * 6.11 -->
 
 After cloning you must execute `git submodule update --init` in the newly created
 directory to initialize the NMS.py and pyMHF submodules. Then install both in your
@@ -73,13 +72,32 @@ is done, you can change the in-game language and immediately start it again with
 restarting. This will not overwrite existing names of other languages. The
 selected/new language will be shown in the log mentioned above.
 
-## Authors
+## License
 
-* zencq - [GitHub](https://github.com/zencq)
+The tooling in this repository (e.g. `NMSpy_mods`, `generate_xlsx.py`) is licensed
+under the [Mozilla Public License 2.0](LICENSE).
+
+The collected data (the `.csv` and `.parquet` files in the item folders and `Pi.xlsx`)
+is licensed under [CC BY 4.0](LICENSE-DATA). You are free to share and adapt it as
+long as you give appropriate credit, e.g. "Data from [Pi](https://github.com/zencq/pi) by zencq".
+
+The submodules `NMS.py` and `pyMHF` are separate projects with their own licenses.
+
+No Man's Sky and all related game content are the property of Hello Games. This
+project is not affiliated with Hello Games.
+
+## Contributors
+
+The main developers are:
+
+* **zencq**
+  * [GitHub/cengelha](https://github.com/cengelha) - [GitHub/zencq](https://github.com/zencq)
+
+Thanks to all other contributors! You can find them in the sidebar or in detail in the [contributors graph](https://github.com/zencq/pi/graphs/contributors?all=1).
 
 ## Credits
 
 * **monkeyman192** - Biggest thanks goes to him for creating NMS.py and the continuous support
 * **DHarhan** - Giving feedback about the desirability of certain stats and combinations
 * **ICE** and **DarkWalker** - Previously used scripts based on those shared by
-  them in the [Creative & Sharing Hub](https://discord.gg/RSGQFQv2pP)
+  them in the Discord [Creative & Sharing Hub](https://discord.gg/RSGQFQv2pP)
